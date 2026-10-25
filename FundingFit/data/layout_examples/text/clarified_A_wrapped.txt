@@ -1,0 +1,4 @@
+The bank agrees to lend a principal amount of EUR 80,000. The loan will be repaid over a term of 60 months by equal monthly instalments of principal and interest.
+Interest accrues at a fixed nominal annual rate of 4.20% for the entire term.
+An arrangement fee of EUR 1,200 is paid separately at drawdown and is not financed in or withheld from the principal.
+Other costs: none.

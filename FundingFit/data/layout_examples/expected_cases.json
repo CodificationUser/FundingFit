@@ -1,0 +1,183 @@
+[
+  {
+    "id": "original_A",
+    "pdf": "original/Offer_A_Northbridge_letter.pdf",
+    "origin": "User-provided fictional PDF, unchanged",
+    "sha256": "b69c672b50393795ccf04a7072c78144e029fd939816053b0044147ab2a72801",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.2,
+      "term_months": 60,
+      "upfront_fee": 1200,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "expected_supported": false,
+    "block_reason": "Fee payment at signing does not explicitly establish separate payment rather than financing or withholding.",
+    "evaluation_role": "post-development regression example, not model training"
+  },
+  {
+    "id": "original_B",
+    "pdf": "original/Offer_B_AlderVale_termsheet.pdf",
+    "origin": "User-provided fictional PDF, unchanged",
+    "sha256": "c95c8b5735107ac60e865b488b9925ea9cd3b8295f7a1f4fa39907a5b68f844f",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 3.75,
+      "term_months": 60,
+      "rate_type": "fixed",
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "block_reason": "Indicative, non-binding terms; separate valuation charge and fee settlement require clarification.",
+    "evaluation_role": "post-development regression example, not model training"
+  },
+  {
+    "id": "original_C",
+    "pdf": "original/Offer_C_Kestrel_quote.pdf",
+    "origin": "User-provided fictional PDF, unchanged",
+    "sha256": "b03c35741adca67ebd8f7a100f19354279188aa05f55debeef5cde99d977a997",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.9,
+      "term_months": 60,
+      "upfront_fee": 400,
+      "rate_type": "fixed",
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "block_reason": "Fee taken when funds arrive is ambiguous; no general absence of additional costs is established.",
+    "evaluation_role": "post-development regression example, not model training"
+  },
+  {
+    "id": "original_D",
+    "pdf": "original/Offer_D_Harbourline_contract_VARIABLE.pdf",
+    "origin": "User-provided fictional PDF, unchanged",
+    "sha256": "777f60ca745a8dcee056c199fb4bba6ba3de5ac53a3a7a18d598573afc661999",
+    "expected_fields": {
+      "principal": 80000,
+      "term_months": 60,
+      "upfront_fee": 950,
+      "rate_type": "variable",
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "block_reason": "Variable benchmark-linked rate, mandatory recurring insurance and early repayment indemnity are outside scope.",
+    "evaluation_role": "post-development regression example, not model training"
+  },
+  {
+    "id": "clarified_A_wrapped",
+    "pdf": "generated/clarified_A_wrapped.pdf",
+    "text": "text/clarified_A_wrapped.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "1630b5195c570041dbf5a722a8bf9bba33bb882a74265f4f316f556f160d6e7c",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.2,
+      "term_months": 60,
+      "upfront_fee": 1200,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "expected_supported": true,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "clarified_A_table",
+    "pdf": "generated/clarified_A_table.pdf",
+    "text": "text/clarified_A_table.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "1da176ae58effcf8f8a8994f95e72c9ac6091c126df702a7d69e06e18a737799",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.2,
+      "term_months": 60,
+      "upfront_fee": 1200,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "expected_supported": true,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "clarified_C_labels",
+    "pdf": "generated/clarified_C_labels.pdf",
+    "text": "text/clarified_C_labels.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "5e968f2459442ff327676a373b8fe5e889db3eab7c57e819bad3d244cde1453d",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.9,
+      "term_months": 60,
+      "upfront_fee": 400,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "expected_supported": true,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "clarified_C_cards",
+    "pdf": "generated/clarified_C_cards.pdf",
+    "text": "text/clarified_C_cards.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "1ef9c5230596680c319fbe72e5b72c1a8eaf12c8383fd9c203f0d1d293af91db",
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.9,
+      "term_months": 60,
+      "upfront_fee": 400,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "expected_supported": true,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "unsupported_variable",
+    "pdf": "generated/unsupported_variable.pdf",
+    "text": "text/unsupported_variable.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "72e9b8ad3a5045880c244e19cccb6247900eb2e0319fe3c1687a70a96bcaf9ef",
+    "expected_fields": {
+      "principal": 80000,
+      "term_months": 60,
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "unsupported_extra_cost",
+    "pdf": "generated/unsupported_extra_cost.pdf",
+    "text": "text/unsupported_extra_cost.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "68a52bf7f6f01336fcde92c242754850c2e995a874ab27d064288685682e6a9e",
+    "expected_fields": {
+      "principal": 80000,
+      "term_months": 60,
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  },
+  {
+    "id": "unsupported_conflicting_rate",
+    "pdf": "generated/unsupported_conflicting_rate.pdf",
+    "text": "text/unsupported_conflicting_rate.txt",
+    "origin": "Codex-generated fictional clarified or adversarial regression fixture",
+    "sha256": "34d3f4d3e138e87ad8725a42b915109a87997daa4971b6cb0a9151f245e1500b",
+    "expected_fields": {
+      "principal": 80000,
+      "term_months": 60,
+      "currency": "EUR"
+    },
+    "expected_supported": false,
+    "evaluation_role": "post-development regression; not an independent real-contract accuracy benchmark"
+  }
+]

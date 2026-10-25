@@ -1,0 +1,80 @@
+[
+  {
+    "id": "split_variable_override",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n\nInterest rate basis\nVariable rate, reviewed each quarter.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "split_extra_insurance",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n\nAdditional compulsory costs\nInsurance premium\nEUR 280 per year.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "split_conditional_waiver",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee\nEUR 400, waived only\nif the borrower buys insurance.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "second_principal_conflict",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n\nAmount advanced\nEUR 85,000\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "split_quarterly_repayments",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n\nRepayment schedule\nQuarterly instalments.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "quote_validity_is_not_loan_duration",
+    "text": "Quote reference: QB-3026.\nYou borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nOther costs: none.\n\nThis quotation is valid for 30 days.\n",
+    "expected_supported": true,
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.9,
+      "term_months": 60,
+      "upfront_fee": 400,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "article_number_is_not_other_cost",
+    "text": "You borrow\nEUR 80,000\nOver\n60 months\nYour nominal annual interest rate\n4.90%\nYour rate is fixed for the entire loan.\nYou repay the same amount every month (equal monthly instalments).\nUpfront setup fee: EUR 400.\nFee payment: paid separately at drawdown; not financed in or withheld from the principal.\nArticle 6 - Other costs\nNo additional costs apply.\n",
+    "expected_supported": true,
+    "expected_fields": {
+      "principal": 80000,
+      "annual_rate_pct": 4.9,
+      "term_months": 60,
+      "upfront_fee": 400,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evaluation_role": "Post-development safety regression, not independent real-world accuracy"
+  },
+  {
+    "id": "variable_rate_in_article_heading",
+    "text": "FUNDINGFIT SYNTHETIC BUSINESS LOAN OFFER\nOffer A\nThis fictional offer is educational sample data, not a bank quotation.\nPurpose: purchase of equipment for a small business.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nNominal annual interest rate: 3.50%.\nRate type: fixed for the entire loan.\nLoan term: 60 months.\nRepayment: equal monthly instalments, payable at each month-end.\nUpfront arrangement fee: EUR 5000.\nFee payment: paid separately at drawdown; not financed in the loan principal.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n\nArticle 9 - Variable interest rate\nThe annual nominal rate is 3.50%.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression after an observed false acceptance"
+  },
+  {
+    "id": "insurance_condition_in_page_footer",
+    "text": "FUNDINGFIT SYNTHETIC BUSINESS LOAN OFFER\nOffer A\nThis fictional offer is educational sample data, not a bank quotation.\nPurpose: purchase of equipment for a small business.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nNominal annual interest rate: 3.50%.\nRate type: fixed for the entire loan.\nLoan term: 60 months.\nRepayment: equal monthly instalments, payable at each month-end.\nUpfront arrangement fee: EUR 5000.\nFee payment: paid separately at drawdown; not financed in the loan principal.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n\nAnnual insurance fee: EUR 280 | Page 1\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression after an observed false acceptance"
+  },
+  {
+    "id": "financial_condition_in_borrower_line",
+    "text": "FUNDINGFIT SYNTHETIC BUSINESS LOAN OFFER\nOffer A\nThis fictional offer is educational sample data, not a bank quotation.\nPurpose: purchase of equipment for a small business.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nNominal annual interest rate: 3.50%.\nRate type: fixed for the entire loan.\nLoan term: 60 months.\nRepayment: equal monthly instalments, payable at each month-end.\nUpfront arrangement fee: EUR 5000.\nFee payment: paid separately at drawdown; not financed in the loan principal.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n\nBorrower: Lumen Bakery, mandatory insurance premium of EUR 280 per year.\n",
+    "expected_supported": false,
+    "evaluation_role": "Post-development safety regression after an observed false acceptance"
+  }
+]

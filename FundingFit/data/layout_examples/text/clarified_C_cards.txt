@@ -1,0 +1,11 @@
+You borrow
+EUR 80,000
+Over
+60 months
+Your nominal annual interest rate
+4.90%
+Your rate is fixed for the entire loan.
+You repay the same amount every month (equal monthly instalments).
+Upfront setup fee: EUR 400.
+Fee payment: paid separately at drawdown; not financed in or withheld from the principal.
+Other costs: none.

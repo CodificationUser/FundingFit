@@ -1,0 +1,17 @@
+FUNDINGFIT SYNTHETIC BUSINESS LOAN OFFER
+Offer A
+This fictional offer is educational sample data, not a bank quotation.
+Purpose: purchase of equipment for a small business.
+Currency: EUR.
+Principal amount: EUR 100000.
+Nominal annual interest rate: 3.50%.
+Rate type: fixed for the entire loan.
+Loan term: 60 months.
+Repayment: equal monthly instalments, payable at each month-end.
+Upfront arrangement fee: EUR 5000.
+Fee payment: paid separately at drawdown; not financed in the loan principal.
+Insurance: none.
+Guarantee fees: none.
+Broker fees: none.
+Other costs: none.
+No payment holiday, balloon payment, or deferred interest applies.

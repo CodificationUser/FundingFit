@@ -1,0 +1,16 @@
+Loan amount
+EUR 80,000
+Repayment term
+60 months
+Nominal annual interest rate
+4.20%
+Interest type
+Fixed for the entire loan term
+Repayment profile
+Equal monthly instalments
+Upfront arrangement fee
+EUR 1,200
+Fee settlement
+Paid separately at drawdown; not financed in or withheld from the principal
+Other costs
+None

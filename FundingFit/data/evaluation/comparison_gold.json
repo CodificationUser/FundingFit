@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "method": "Monthly annuity rounded to cents; monthly interest rounded half-up to cents; final payment adjusted to settle the balance; upfront fee paid separately; no other costs. Feasibility uses the largest scheduled payment including the last. Annual effective cost is an illustrative cash-flow yield, not an asserted regulatory APR/TAEG.",
+  "formula": "r = annual_rate_pct/1200; regular_payment = round_half_up(principal*r/(1-(1+r)**(-term_months)),2); monthly interest = round_half_up(balance*r,2); final payment = balance+final interest; cost = sum(interest)+upfront_fee.",
+  "monthly_budget": 1840,
+  "upfront_fee_budget": 2000,
+  "unconstrained_lowest_cost": "offer_b",
+  "feasible_offer_ids": [
+    "offer_c"
+  ],
+  "expected": [
+    {
+      "id": "offer_a",
+      "monthly_payment": 1819.17,
+      "final_payment": 1819.5,
+      "max_monthly_payment": 1819.5,
+      "interest_total": 9150.53,
+      "total_cost": 14150.53,
+      "total_repayment": 114150.53,
+      "annual_effective_cost": 5.7502164,
+      "within_monthly_budget": true,
+      "within_upfront_fee_budget": false
+    },
+    {
+      "id": "offer_b",
+      "monthly_payment": 1850.69,
+      "final_payment": 1850.77,
+      "max_monthly_payment": 1850.77,
+      "interest_total": 11041.48,
+      "total_cost": 11541.48,
+      "total_repayment": 111541.48,
+      "annual_effective_cost": 4.49516756,
+      "within_monthly_budget": false,
+      "within_upfront_fee_budget": true
+    },
+    {
+      "id": "offer_c",
+      "monthly_payment": 1837.14,
+      "final_payment": 1837.32,
+      "max_monthly_payment": 1837.32,
+      "interest_total": 10228.58,
+      "total_cost": 11728.58,
+      "total_repayment": 111728.58,
+      "annual_effective_cost": 4.61271665,
+      "within_monthly_budget": true,
+      "within_upfront_fee_budget": true
+    }
+  ]
+}

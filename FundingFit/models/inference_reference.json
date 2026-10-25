@@ -1,0 +1,1094 @@
+[
+  {
+    "text": "The facility provides borrowed capital of EUR 76,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.001653438779314132,
+      "currency": 0.0018690422606602115,
+      "other": 0.0035878207394144566,
+      "other_costs": 0.0024777539094493106,
+      "principal": 0.9848960402746656,
+      "rate_type": 0.0009399597543821989,
+      "term_months": 0.0029316880780088568,
+      "upfront_fee": 0.001644256204105051
+    }
+  },
+  {
+    "text": "The facility provides borrowed capital of EUR 120,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0016517277407496738,
+      "currency": 0.0018863356048133826,
+      "other": 0.0033983774038089227,
+      "other_costs": 0.0030396684231502775,
+      "principal": 0.9835955680839805,
+      "rate_type": 0.0009589220592425325,
+      "term_months": 0.002965893068550829,
+      "upfront_fee": 0.0025035076157040744
+    }
+  },
+  {
+    "text": "The facility provides borrowed capital of USD 24,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0017159847496450405,
+      "currency": 0.0020558277907533683,
+      "other": 0.0035602424338054437,
+      "other_costs": 0.0031978495825641397,
+      "principal": 0.983498619429086,
+      "rate_type": 0.0009971500462971415,
+      "term_months": 0.003260628515330343,
+      "upfront_fee": 0.001713697452518537
+    }
+  },
+  {
+    "text": "Borrowing requested by the company: EUR 24,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.02170903005098306,
+      "currency": 0.013482447447591759,
+      "other": 0.08762073609825674,
+      "other_costs": 0.014918570130265344,
+      "principal": 0.8325849802310873,
+      "rate_type": 0.008143890372254638,
+      "term_months": 0.010587920504531764,
+      "upfront_fee": 0.010952425165029627
+    }
+  },
+  {
+    "text": "Borrowing requested by the company: EUR 45,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0184238336224666,
+      "currency": 0.01158789024834889,
+      "other": 0.07112716046991467,
+      "other_costs": 0.012527010602611653,
+      "principal": 0.8627062391667777,
+      "rate_type": 0.006945039232195935,
+      "term_months": 0.008984769395237607,
+      "upfront_fee": 0.007698057262446916
+    }
+  },
+  {
+    "text": "Borrowing requested by the company: EUR 76,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.019285968683836734,
+      "currency": 0.01205763006685435,
+      "other": 0.07349360696717705,
+      "other_costs": 0.013134755778706316,
+      "principal": 0.8574255938674314,
+      "rate_type": 0.007239441542055463,
+      "term_months": 0.009266160315025286,
+      "upfront_fee": 0.008096842778913373
+    }
+  },
+  {
+    "text": "Loan funding approved for disbursement is USD 120,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.012346472550202795,
+      "currency": 0.047132111772568146,
+      "other": 0.08966256198221911,
+      "other_costs": 0.021839191333510782,
+      "principal": 0.5393594948271428,
+      "rate_type": 0.022865516809598058,
+      "term_months": 0.11426523636429782,
+      "upfront_fee": 0.15252941436046033
+    }
+  },
+  {
+    "text": "Loan funding approved for disbursement is GBP 185,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.012315403808847124,
+      "currency": 0.042586292832942615,
+      "other": 0.09847440114831135,
+      "other_costs": 0.01800482883979034,
+      "principal": 0.5721708100445386,
+      "rate_type": 0.021598158025314798,
+      "term_months": 0.11723199150263244,
+      "upfront_fee": 0.11761811379762264
+    }
+  },
+  {
+    "text": "The capital sum advanced under this credit is EUR 45,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0036431983306050636,
+      "currency": 0.007624655949017334,
+      "other": 0.0074629010666649965,
+      "other_costs": 0.005399918053668806,
+      "principal": 0.9641530671729444,
+      "rate_type": 0.0030363301843698157,
+      "term_months": 0.003054219269430664,
+      "upfront_fee": 0.005625709973299184
+    }
+  },
+  {
+    "text": "The capital sum advanced under this credit is GBP 120,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.004072746349513786,
+      "currency": 0.008773640787441904,
+      "other": 0.007711875209168955,
+      "other_costs": 0.00744394683941485,
+      "principal": 0.9553665135678033,
+      "rate_type": 0.003455366695565143,
+      "term_months": 0.0036507971508065134,
+      "upfront_fee": 0.009525113400285314
+    }
+  },
+  {
+    "text": "The capital sum advanced under this credit is EUR 76,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.003846765584313923,
+      "currency": 0.00794333371768442,
+      "other": 0.007814957256387875,
+      "other_costs": 0.005677901537476753,
+      "principal": 0.9624627225336533,
+      "rate_type": 0.003176215328866246,
+      "term_months": 0.003167572997641938,
+      "upfront_fee": 0.005910531043975671
+    }
+  },
+  {
+    "text": "Gross principal available to the borrower: USD 120,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0015352673848395262,
+      "currency": 0.003939966256048132,
+      "other": 0.004521856561506197,
+      "other_costs": 0.0027294531173642535,
+      "principal": 0.9787185799920035,
+      "rate_type": 0.0013319029948815958,
+      "term_months": 0.0030779231548310002,
+      "upfront_fee": 0.004145050538525758
+    }
+  },
+  {
+    "text": "Gross principal available to the borrower: EUR 120,000.",
+    "expected_label": "principal",
+    "probabilities": {
+      "annual_rate_pct": 0.0014518398133684925,
+      "currency": 0.0035784803335201757,
+      "other": 0.003984233972733664,
+      "other_costs": 0.002510769793825015,
+      "principal": 0.9801637535332844,
+      "rate_type": 0.0012527905030619338,
+      "term_months": 0.0029127964821534656,
+      "upfront_fee": 0.004145335568052662
+    }
+  },
+  {
+    "text": "Interest is calculated using 7.25% nominal per annum.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9736100938296549,
+      "currency": 0.002559363428006658,
+      "other": 0.010027798316913372,
+      "other_costs": 0.002909633811686671,
+      "principal": 0.0017607693856166338,
+      "rate_type": 0.00558799352169674,
+      "term_months": 0.0016366907116794718,
+      "upfront_fee": 0.0019076569947455793
+    }
+  },
+  {
+    "text": "Interest is calculated using 2.8% nominal per annum.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9690269258142102,
+      "currency": 0.002982832507825621,
+      "other": 0.011726870590148788,
+      "other_costs": 0.0033249104240404156,
+      "principal": 0.002053904684016853,
+      "rate_type": 0.006806520364124861,
+      "term_months": 0.0019005009581773828,
+      "upfront_fee": 0.0021775346574556278
+    }
+  },
+  {
+    "text": "The annual percentage charged as borrowing interest is 1.75%.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9790571839368554,
+      "currency": 0.0014388003684924358,
+      "other": 0.00554280229881283,
+      "other_costs": 0.005240866883239143,
+      "principal": 0.002469318274668264,
+      "rate_type": 0.002350714772368383,
+      "term_months": 0.0018844737329780043,
+      "upfront_fee": 0.0020158397325856694
+    }
+  },
+  {
+    "text": "The annual percentage charged as borrowing interest is 2.8%.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.976270800158299,
+      "currency": 0.0016317917694990153,
+      "other": 0.006426408441689696,
+      "other_costs": 0.0059787722983241365,
+      "principal": 0.002847945271229752,
+      "rate_type": 0.0025343689557572185,
+      "term_months": 0.0020419416673075302,
+      "upfront_fee": 0.0022679714378935592
+    }
+  },
+  {
+    "text": "A yearly nominal interest charge of 8.4% is agreed.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9260281651173217,
+      "currency": 0.0040218754566635016,
+      "other": 0.01666891118699449,
+      "other_costs": 0.014717929472995068,
+      "principal": 0.0029347474484448313,
+      "rate_type": 0.014498737023863872,
+      "term_months": 0.007549560343889772,
+      "upfront_fee": 0.013580073949826821
+    }
+  },
+  {
+    "text": "A yearly nominal interest charge of 2.8% is agreed.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9222784890470573,
+      "currency": 0.004200500257893999,
+      "other": 0.017446634744493206,
+      "other_costs": 0.015430495066189393,
+      "principal": 0.0030767955095594743,
+      "rate_type": 0.015356826650005973,
+      "term_months": 0.008024267365761112,
+      "upfront_fee": 0.014185991359039484
+    }
+  },
+  {
+    "text": "A yearly nominal interest charge of 1.75% is agreed.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9250902434233909,
+      "currency": 0.003848022284370337,
+      "other": 0.0195151392066742,
+      "other_costs": 0.013832919280848401,
+      "principal": 0.0027759554846458093,
+      "rate_type": 0.014977318752855746,
+      "term_months": 0.0071105697811854,
+      "upfront_fee": 0.012849831786029327
+    }
+  },
+  {
+    "text": "Borrowing attracts nominal interest of 1.75% per year.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9846392448375754,
+      "currency": 0.0018271137359308991,
+      "other": 0.0039251249818970865,
+      "other_costs": 0.0012083650407173918,
+      "principal": 0.0019198282845337789,
+      "rate_type": 0.002320530165095721,
+      "term_months": 0.003284583822208718,
+      "upfront_fee": 0.0008752091320410208
+    }
+  },
+  {
+    "text": "Borrowing attracts nominal interest of 7.25% per year.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9857484682907499,
+      "currency": 0.001787510445905435,
+      "other": 0.0031786950063110815,
+      "other_costs": 0.0012175882304783087,
+      "principal": 0.0018967119917557861,
+      "rate_type": 0.002064361052644577,
+      "term_months": 0.0032330715933429318,
+      "upfront_fee": 0.0008735933888122069
+    }
+  },
+  {
+    "text": "Borrowing attracts nominal interest of 8.4% per year.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.9845674699988638,
+      "currency": 0.0019384319971899274,
+      "other": 0.003403294852709557,
+      "other_costs": 0.001248694126527788,
+      "principal": 0.002064204461452637,
+      "rate_type": 0.0023064910991095803,
+      "term_months": 0.0035504858807169975,
+      "upfront_fee": 0.0009209275834296238
+    }
+  },
+  {
+    "text": "Interest rate expressed on an annual basis: 7.25%.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.8894890240472332,
+      "currency": 0.003867679481396383,
+      "other": 0.02963333739484942,
+      "other_costs": 0.012084322298413427,
+      "principal": 0.004008792486572228,
+      "rate_type": 0.05222759421786388,
+      "term_months": 0.0041567229516566275,
+      "upfront_fee": 0.004532527122014835
+    }
+  },
+  {
+    "text": "Interest rate expressed on an annual basis: 2.8%.",
+    "expected_label": "annual_rate_pct",
+    "probabilities": {
+      "annual_rate_pct": 0.8634096017371932,
+      "currency": 0.004655575520064274,
+      "other": 0.036196327950372684,
+      "other_costs": 0.014681302587148757,
+      "principal": 0.004897696961736094,
+      "rate_type": 0.06577883140407759,
+      "term_months": 0.00499696631617819,
+      "upfront_fee": 0.00538369752322935
+    }
+  },
+  {
+    "text": "The scheduled repayment duration amounts to 48 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.0026560724053220934,
+      "currency": 0.009014726983259473,
+      "other": 0.07496438093862329,
+      "other_costs": 0.007187100777762846,
+      "principal": 0.013767160869681142,
+      "rate_type": 0.004099781069966761,
+      "term_months": 0.882527445316559,
+      "upfront_fee": 0.005783331638825358
+    }
+  },
+  {
+    "text": "The scheduled repayment duration amounts to 12 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.002439247539581726,
+      "currency": 0.00841616748530339,
+      "other": 0.06965223739527723,
+      "other_costs": 0.006826325737765687,
+      "principal": 0.013114298159653877,
+      "rate_type": 0.003829744565004253,
+      "term_months": 0.8901370243259444,
+      "upfront_fee": 0.0055849547914694235
+    }
+  },
+  {
+    "text": "The scheduled repayment duration amounts to 72 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.002365085033671567,
+      "currency": 0.008075248566455733,
+      "other": 0.062160055532523704,
+      "other_costs": 0.0064289876571258855,
+      "principal": 0.012388612882380006,
+      "rate_type": 0.003673306776300328,
+      "term_months": 0.8997723444135441,
+      "upfront_fee": 0.005136359137998634
+    }
+  },
+  {
+    "text": "The final instalment is due 7 years after funding.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.05542073351302624,
+      "currency": 0.023978446063340347,
+      "other": 0.4076981783207167,
+      "other_costs": 0.01995771210085111,
+      "principal": 0.014749146708628461,
+      "rate_type": 0.026303867511678646,
+      "term_months": 0.3944600573196638,
+      "upfront_fee": 0.05743185846209462
+    }
+  },
+  {
+    "text": "The final instalment is due 6 years after funding.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.05200420387271794,
+      "currency": 0.022750785053624684,
+      "other": 0.415519453535483,
+      "other_costs": 0.018613799557162372,
+      "principal": 0.013868782794210353,
+      "rate_type": 0.025091365023442523,
+      "term_months": 0.39779066035395716,
+      "upfront_fee": 0.05436094980940203
+    }
+  },
+  {
+    "text": "The final instalment is due 3 years after funding.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.05203023479222875,
+      "currency": 0.02274588650997526,
+      "other": 0.4205864369322361,
+      "other_costs": 0.018628966002488038,
+      "principal": 0.013883416718349613,
+      "rate_type": 0.02507643543118531,
+      "term_months": 0.39264707266652,
+      "upfront_fee": 0.0544015509470169
+    }
+  },
+  {
+    "text": "The agreed loan tenor spans 48 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.0015579284804214933,
+      "currency": 0.0022720900097523275,
+      "other": 0.016139397097590432,
+      "other_costs": 0.0027748360997972496,
+      "principal": 0.004432674637889664,
+      "rate_type": 0.0027783382371403295,
+      "term_months": 0.9663110412065221,
+      "upfront_fee": 0.0037336942308863353
+    }
+  },
+  {
+    "text": "The agreed loan tenor spans 24 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.0014096162974686695,
+      "currency": 0.0020529726897688463,
+      "other": 0.01311455574036414,
+      "other_costs": 0.0025530668270854827,
+      "principal": 0.004309272435380427,
+      "rate_type": 0.0025291610787634014,
+      "term_months": 0.9705158010278292,
+      "upfront_fee": 0.003515553903339762
+    }
+  },
+  {
+    "text": "Repayment is spread across a period of 4 years.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.011638153444969617,
+      "currency": 0.006493511649344719,
+      "other": 0.1509390649348366,
+      "other_costs": 0.003686575738272037,
+      "principal": 0.004308593399272859,
+      "rate_type": 0.003093064985939755,
+      "term_months": 0.8141658609589292,
+      "upfront_fee": 0.00567517488843518
+    }
+  },
+  {
+    "text": "Repayment is spread across a period of 3 years.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.008419528727388648,
+      "currency": 0.0052559543311479755,
+      "other": 0.09488465774474052,
+      "other_costs": 0.0031116189312815398,
+      "principal": 0.0035643671372241775,
+      "rate_type": 0.0026365496208479943,
+      "term_months": 0.8774378363369132,
+      "upfront_fee": 0.004689487170455734
+    }
+  },
+  {
+    "text": "Repayment is spread across a period of 1 years.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.010018002017922247,
+      "currency": 0.0060319134282715405,
+      "other": 0.125447749200458,
+      "other_costs": 0.0036614564960858057,
+      "principal": 0.004163220325633202,
+      "rate_type": 0.0030410957561584438,
+      "term_months": 0.8421454147774422,
+      "upfront_fee": 0.005491147998028648
+    }
+  },
+  {
+    "text": "The full capital is repaid over 48 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.00394430755788096,
+      "currency": 0.003057223938691859,
+      "other": 0.022796425269326577,
+      "other_costs": 0.004869233712699511,
+      "principal": 0.011277967636685184,
+      "rate_type": 0.004277602637904639,
+      "term_months": 0.9447302437134811,
+      "upfront_fee": 0.005046995533330095
+    }
+  },
+  {
+    "text": "The full capital is repaid over 84 months.",
+    "expected_label": "term_months",
+    "probabilities": {
+      "annual_rate_pct": 0.003817128296629238,
+      "currency": 0.0029884697973582355,
+      "other": 0.021300282152348252,
+      "other_costs": 0.004813660089739762,
+      "principal": 0.010555685831105097,
+      "rate_type": 0.0041846014245357005,
+      "term_months": 0.947319687984946,
+      "upfront_fee": 0.0050204844233375364
+    }
+  },
+  {
+    "text": "Loan setup costs payable initially: USD 350.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.004449160591252193,
+      "currency": 0.01258018786148661,
+      "other": 0.015110194421568916,
+      "other_costs": 0.08423839535811974,
+      "principal": 0.018505812249111426,
+      "rate_type": 0.006532871977796867,
+      "term_months": 0.011023315533847286,
+      "upfront_fee": 0.8475600620068169
+    }
+  },
+  {
+    "text": "Loan setup costs payable initially: USD 800.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.004214882865653439,
+      "currency": 0.012005007782191534,
+      "other": 0.015403705422157682,
+      "other_costs": 0.07051752100975249,
+      "principal": 0.019709477199288426,
+      "rate_type": 0.006226281059442793,
+      "term_months": 0.010390581307510952,
+      "upfront_fee": 0.8615325433540028
+    }
+  },
+  {
+    "text": "Loan setup costs payable initially: EUR 120.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.0035972461687809,
+      "currency": 0.009796107934759813,
+      "other": 0.011295866929037961,
+      "other_costs": 0.060593445649872194,
+      "principal": 0.019976216962054705,
+      "rate_type": 0.0053121721043628105,
+      "term_months": 0.009026240379955724,
+      "upfront_fee": 0.8804027038711759
+    }
+  },
+  {
+    "text": "At the start, an origination fee of GBP 120 is charged once.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.00493297763723056,
+      "currency": 0.00472949317914262,
+      "other": 0.00943029582392061,
+      "other_costs": 0.02568382255970791,
+      "principal": 0.004380174494806103,
+      "rate_type": 0.0028151371215201122,
+      "term_months": 0.0026675604883704285,
+      "upfront_fee": 0.9453605386953016
+    }
+  },
+  {
+    "text": "At the start, an origination fee of USD 350 is charged once.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.006486056578834722,
+      "currency": 0.006311492383201545,
+      "other": 0.013082759669028145,
+      "other_costs": 0.03896437270957162,
+      "principal": 0.004794198479740163,
+      "rate_type": 0.003710824894944779,
+      "term_months": 0.003547640318727255,
+      "upfront_fee": 0.9231026549659518
+    }
+  },
+  {
+    "text": "A one-time bank arrangement payment of EUR 2400 is due.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.006533128796945687,
+      "currency": 0.012834228678598047,
+      "other": 0.0643204575572617,
+      "other_costs": 0.011608067331744566,
+      "principal": 0.03353661066456552,
+      "rate_type": 0.006013104051790901,
+      "term_months": 0.020652522499655688,
+      "upfront_fee": 0.8445018804194377
+    }
+  },
+  {
+    "text": "A one-time bank arrangement payment of EUR 350 is due.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.008073883560603849,
+      "currency": 0.016267347463990584,
+      "other": 0.07881649919086754,
+      "other_costs": 0.016757864696152164,
+      "principal": 0.03489569836378265,
+      "rate_type": 0.007460176236834083,
+      "term_months": 0.025827042836407802,
+      "upfront_fee": 0.8119014876513613
+    }
+  },
+  {
+    "text": "The application carries an initial processing fee of GBP 350.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.0025408432400405973,
+      "currency": 0.0030032402118307117,
+      "other": 0.0077742286469369235,
+      "other_costs": 0.014814141336635701,
+      "principal": 0.004425432247249143,
+      "rate_type": 0.003163783329315334,
+      "term_months": 0.002269602251166329,
+      "upfront_fee": 0.9620087287368253
+    }
+  },
+  {
+    "text": "The application carries an initial processing fee of USD 800.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.0027800081707555196,
+      "currency": 0.003302686383961969,
+      "other": 0.008720185818188104,
+      "other_costs": 0.01645622219932776,
+      "principal": 0.005492677740528124,
+      "rate_type": 0.0034756656626553587,
+      "term_months": 0.002492530805615105,
+      "upfront_fee": 0.957280023218968
+    }
+  },
+  {
+    "text": "The application carries an initial processing fee of USD 2400.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.0030565808154825,
+      "currency": 0.0036024018146846833,
+      "other": 0.009413502668390873,
+      "other_costs": 0.019507148236819226,
+      "principal": 0.007352070660773359,
+      "rate_type": 0.003834591448295136,
+      "term_months": 0.0027798641660387057,
+      "upfront_fee": 0.9504538401895156
+    }
+  },
+  {
+    "text": "The fee charged on opening the facility equals GBP 350.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.016757823277995618,
+      "currency": 0.010373693003291337,
+      "other": 0.014292463249935805,
+      "other_costs": 0.045358193953074985,
+      "principal": 0.03440947337055508,
+      "rate_type": 0.005233483724784841,
+      "term_months": 0.012423852575739516,
+      "upfront_fee": 0.8611510168446228
+    }
+  },
+  {
+    "text": "The fee charged on opening the facility equals GBP 2400.",
+    "expected_label": "upfront_fee",
+    "probabilities": {
+      "annual_rate_pct": 0.01584829997087526,
+      "currency": 0.009625064866117125,
+      "other": 0.014285782760065587,
+      "other_costs": 0.04025209462751268,
+      "principal": 0.041883087717531436,
+      "rate_type": 0.004945926994451485,
+      "term_months": 0.011603627801623568,
+      "upfront_fee": 0.8615561152618229
+    }
+  },
+  {
+    "text": "The financing rate remains fixed from beginning to end.",
+    "expected_label": "rate_type",
+    "probabilities": {
+      "annual_rate_pct": 0.24387644044337753,
+      "currency": 0.012468441349558951,
+      "other": 0.05817585422398478,
+      "other_costs": 0.026875640540459208,
+      "principal": 0.04930870553159748,
+      "rate_type": 0.474989046976967,
+      "term_months": 0.061667411571276115,
+      "upfront_fee": 0.07263845936277913
+    }
+  },
+  {
+    "text": "A fixed rate is guaranteed during the borrowing term.",
+    "expected_label": "rate_type",
+    "probabilities": {
+      "annual_rate_pct": 0.20744461203868092,
+      "currency": 0.02217676409584853,
+      "other": 0.03453192062717982,
+      "other_costs": 0.15278268253801197,
+      "principal": 0.044719854834539066,
+      "rate_type": 0.3229295027439056,
+      "term_months": 0.18872100638872544,
+      "upfront_fee": 0.026693656733108622
+    }
+  },
+  {
+    "text": "The loan has a variable, benchmark-linked rate.",
+    "expected_label": "rate_type",
+    "probabilities": {
+      "annual_rate_pct": 0.018203636078217303,
+      "currency": 0.02110393659093117,
+      "other": 0.09791904381300998,
+      "other_costs": 0.02130806298656125,
+      "principal": 0.030408324645851432,
+      "rate_type": 0.7376782098180888,
+      "term_months": 0.031264235479499566,
+      "upfront_fee": 0.042114550587840596
+    }
+  },
+  {
+    "text": "Interest-rate category for this proposal: fixed.",
+    "expected_label": "rate_type",
+    "probabilities": {
+      "annual_rate_pct": 0.0656443648657825,
+      "currency": 0.010607555754077395,
+      "other": 0.2692697183684166,
+      "other_costs": 0.016615194511635234,
+      "principal": 0.008024729497353859,
+      "rate_type": 0.6018613090116376,
+      "term_months": 0.010488673088675585,
+      "upfront_fee": 0.01748845490242115
+    }
+  },
+  {
+    "text": "The rate floats during the term of this borrowing.",
+    "expected_label": "rate_type",
+    "probabilities": {
+      "annual_rate_pct": 0.11303277236172961,
+      "currency": 0.042743327889439985,
+      "other": 0.08401966280059696,
+      "other_costs": 0.03981408465088507,
+      "principal": 0.08258098849206097,
+      "rate_type": 0.15049162877938038,
+      "term_months": 0.43389256843521795,
+      "upfront_fee": 0.05342496659068905
+    }
+  },
+  {
+    "text": "The currency selected for this financing is USD.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.013812701370612005,
+      "currency": 0.8794994258510916,
+      "other": 0.015227758815712759,
+      "other_costs": 0.015166292643250553,
+      "principal": 0.015308931556166265,
+      "rate_type": 0.028082554003662583,
+      "term_months": 0.02342774984137507,
+      "upfront_fee": 0.009474585918129077
+    }
+  },
+  {
+    "text": "The currency selected for this financing is GBP.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.014891009439884709,
+      "currency": 0.8705132216764169,
+      "other": 0.016964401159070053,
+      "other_costs": 0.015294659723377296,
+      "principal": 0.015668684526414293,
+      "rate_type": 0.029038382920064536,
+      "term_months": 0.026829686901155135,
+      "upfront_fee": 0.01079995365361697
+    }
+  },
+  {
+    "text": "The currency selected for this financing is EUR.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.014579820066984639,
+      "currency": 0.8727915047185856,
+      "other": 0.017706706643534825,
+      "other_costs": 0.01553565334147801,
+      "principal": 0.015686186690237035,
+      "rate_type": 0.0292510119167756,
+      "term_months": 0.024066619286770598,
+      "upfront_fee": 0.010382497335633812
+    }
+  },
+  {
+    "text": "Payments and advances are denominated in EUR.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.0028584036863117538,
+      "currency": 0.9423638042346821,
+      "other": 0.03288814688129171,
+      "other_costs": 0.006035383564293316,
+      "principal": 0.007124145321837552,
+      "rate_type": 0.002735559250839305,
+      "term_months": 0.004147044734955422,
+      "upfront_fee": 0.001847512325789002
+    }
+  },
+  {
+    "text": "Payments and advances are denominated in GBP.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.002776898430056179,
+      "currency": 0.9436457538320835,
+      "other": 0.03208856359602374,
+      "other_costs": 0.0059481642001084165,
+      "principal": 0.0069567226464481114,
+      "rate_type": 0.0026822720782067717,
+      "term_months": 0.004096966398375973,
+      "upfront_fee": 0.0018046588186973116
+    }
+  },
+  {
+    "text": "Amounts in this proposal are expressed in EUR.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.011333840818150644,
+      "currency": 0.24643323302104922,
+      "other": 0.6146037682090052,
+      "other_costs": 0.02911655605083431,
+      "principal": 0.05375931607418076,
+      "rate_type": 0.01209414133494902,
+      "term_months": 0.016439048101515443,
+      "upfront_fee": 0.016220096390315426
+    }
+  },
+  {
+    "text": "Amounts in this proposal are expressed in USD.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.011169627279949622,
+      "currency": 0.25233388556921443,
+      "other": 0.6089530695431574,
+      "other_costs": 0.029320198081280786,
+      "principal": 0.053621533612269935,
+      "rate_type": 0.012095451889634318,
+      "term_months": 0.016509969144296893,
+      "upfront_fee": 0.015996264880196558
+    }
+  },
+  {
+    "text": "The chosen denomination of the loan is USD.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.0054598258855530594,
+      "currency": 0.9202552734214131,
+      "other": 0.01210980440541955,
+      "other_costs": 0.0115642582004532,
+      "principal": 0.009422997742852842,
+      "rate_type": 0.005617112221966288,
+      "term_months": 0.015812432807132362,
+      "upfront_fee": 0.01975829531520961
+    }
+  },
+  {
+    "text": "The chosen denomination of the loan is GBP.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.005925473540374143,
+      "currency": 0.9120382414846335,
+      "other": 0.013639763235270295,
+      "other_costs": 0.011679879457624493,
+      "principal": 0.009668674104593612,
+      "rate_type": 0.005816200927456757,
+      "term_months": 0.018357647477601727,
+      "upfront_fee": 0.022874119772445314
+    }
+  },
+  {
+    "text": "The lender and borrower settle all sums in USD.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.042771991678941516,
+      "currency": 0.370480462803672,
+      "other": 0.1537642438466333,
+      "other_costs": 0.04225246003807157,
+      "principal": 0.25668437086498924,
+      "rate_type": 0.0242650076883156,
+      "term_months": 0.03209106378754076,
+      "upfront_fee": 0.0776903992918361
+    }
+  },
+  {
+    "text": "The lender and borrower settle all sums in EUR.",
+    "expected_label": "currency",
+    "probabilities": {
+      "annual_rate_pct": 0.04378353196610297,
+      "currency": 0.36316833143041183,
+      "other": 0.15523202363995864,
+      "other_costs": 0.0421381844133172,
+      "principal": 0.25962845929273726,
+      "rate_type": 0.024403607940377058,
+      "term_months": 0.0321216266841379,
+      "upfront_fee": 0.07952423463295723
+    }
+  },
+  {
+    "text": "No supplementary costs are payable under this offer.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.011740428894617759,
+      "currency": 0.10464533195436106,
+      "other": 0.29949815853546546,
+      "other_costs": 0.43696679129556726,
+      "principal": 0.02640461929653045,
+      "rate_type": 0.015671487106507495,
+      "term_months": 0.020735882611595747,
+      "upfront_fee": 0.08433730030535476
+    }
+  },
+  {
+    "text": "No insurance, broker or guarantee costs are added.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 5.9781618612034186e-05,
+      "currency": 0.00012994731736483108,
+      "other": 0.0001880259301098119,
+      "other_costs": 0.9992013138039877,
+      "principal": 8.193336287896402e-05,
+      "rate_type": 7.260123740401893e-05,
+      "term_months": 0.00018800500574269737,
+      "upfront_fee": 7.839172390008335e-05
+    }
+  },
+  {
+    "text": "Ancillary charges in addition to interest: none.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.05762436725147197,
+      "currency": 0.023611805404333025,
+      "other": 0.05351643075957779,
+      "other_costs": 0.7919759167353574,
+      "principal": 0.011366608140414673,
+      "rate_type": 0.03286570632864551,
+      "term_months": 0.011833633649833714,
+      "upfront_fee": 0.01720553173036605
+    }
+  },
+  {
+    "text": "Extra compulsory expenses total EUR 2400.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.02018035043416285,
+      "currency": 0.03390237054732701,
+      "other": 0.09754625211843644,
+      "other_costs": 0.5168804225374899,
+      "principal": 0.1832965766592794,
+      "rate_type": 0.02129640353478603,
+      "term_months": 0.0318113740956017,
+      "upfront_fee": 0.09508625007291668
+    }
+  },
+  {
+    "text": "Extra compulsory expenses total EUR 800.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.019543765845006406,
+      "currency": 0.03386215048588244,
+      "other": 0.09176595535824424,
+      "other_costs": 0.5740866060419124,
+      "principal": 0.1542163413015571,
+      "rate_type": 0.020707499918094598,
+      "term_months": 0.030162324590880488,
+      "upfront_fee": 0.07565535645842233
+    }
+  },
+  {
+    "text": "Extra compulsory expenses total USD 2400.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.017212191034739654,
+      "currency": 0.0314197380996408,
+      "other": 0.08144001534134108,
+      "other_costs": 0.5725435867962145,
+      "principal": 0.1869389166524038,
+      "rate_type": 0.018689527885225335,
+      "term_months": 0.025248658672769486,
+      "upfront_fee": 0.06650736551766515
+    }
+  },
+  {
+    "text": "The borrower owes no additional recurring charges.",
+    "expected_label": "other_costs",
+    "probabilities": {
+      "annual_rate_pct": 0.025986031780413536,
+      "currency": 0.011796327742265014,
+      "other": 0.036095585402722646,
+      "other_costs": 0.8662667883866697,
+      "principal": 0.02200139900517087,
+      "rate_type": 0.006385878637063014,
+      "term_months": 0.014424619892354665,
+      "upfront_fee": 0.01704336915334052
+    }
+  },
+  {
+    "text": "This document describes a fictional equipment financing.",
+    "expected_label": "other",
+    "probabilities": {
+      "annual_rate_pct": 0.012828509890863902,
+      "currency": 0.008523701538049438,
+      "other": 0.8821813525750591,
+      "other_costs": 0.021762970661349055,
+      "principal": 0.03239884183967814,
+      "rate_type": 0.011248857557647348,
+      "term_months": 0.01559618983240901,
+      "upfront_fee": 0.015459576104944141
+    }
+  },
+  {
+    "text": "Repayments fall at the end of every calendar month.",
+    "expected_label": "other",
+    "probabilities": {
+      "annual_rate_pct": 0.010589419310903604,
+      "currency": 0.04520192350856203,
+      "other": 0.5854732917050548,
+      "other_costs": 0.016419557671939908,
+      "principal": 0.012535364537543866,
+      "rate_type": 0.01112153484061906,
+      "term_months": 0.29974687110514786,
+      "upfront_fee": 0.018912037320228774
+    }
+  },
+  {
+    "text": "The fee must be paid using separate business cash.",
+    "expected_label": "other",
+    "probabilities": {
+      "annual_rate_pct": 0.020951921363609443,
+      "currency": 0.0112183372098384,
+      "other": 0.34415473675181135,
+      "other_costs": 0.04881754954248325,
+      "principal": 0.02480779737377546,
+      "rate_type": 0.03283686711917488,
+      "term_months": 0.026805659483065757,
+      "upfront_fee": 0.49040713115624135
+    }
+  },
+  {
+    "text": "Please return a signed copy to the relationship manager.",
+    "expected_label": "other",
+    "probabilities": {
+      "annual_rate_pct": 0.011388009444946197,
+      "currency": 0.02476812621705559,
+      "other": 0.7501043712592671,
+      "other_costs": 0.04427022820409998,
+      "principal": 0.03985060419381976,
+      "rate_type": 0.037936453753618565,
+      "term_months": 0.051350045296448724,
+      "upfront_fee": 0.04033216163074416
+    }
+  },
+  {
+    "text": "No grace period and no large final repayment are included.",
+    "expected_label": "other",
+    "probabilities": {
+      "annual_rate_pct": 0.03997396860775235,
+      "currency": 0.03395673839013744,
+      "other": 0.44677979744903756,
+      "other_costs": 0.05904873625210206,
+      "principal": 0.013177780218380506,
+      "rate_type": 0.023774033446301593,
+      "term_months": 0.36452103583496037,
+      "upfront_fee": 0.018767909801328073
+    }
+  }
+]

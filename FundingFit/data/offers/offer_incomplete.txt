@@ -1,0 +1,15 @@
+FUNDINGFIT SYNTHETIC INCOMPLETE OFFER
+Offer D incomplete
+Fictional document supplied to test missing-information handling.
+Currency: EUR.
+Principal amount: EUR 100000.
+Nominal annual interest rate: 4.00%.
+Rate type: fixed for the entire loan.
+Loan term: 60 months.
+Repayment: equal monthly instalments in arrears.
+The arrangement-fee clause has not been supplied.
+Insurance: none.
+Guarantee fees: none.
+Broker fees: none.
+Other recurring costs: none.
+No payment holiday, balloon payment, or deferred interest applies.

@@ -1,0 +1,17 @@
+FUNDINGFIT - FICTIONAL FINANCING PROPOSAL
+Offer B
+Fictional demonstration: no real lender is represented.
+The facility finances business equipment.
+All payments are denominated in EUR.
+The amount advanced is EUR 100000.
+The annual nominal borrowing rate is 4.20%.
+This is a fixed-rate loan throughout its life.
+The repayment period is 60 months.
+Payments are equal monthly instalments in arrears.
+A one-off origination fee of EUR 500 is payable.
+This fee is paid separately when funds are released and is not borrowed.
+Insurance charges: none.
+Guarantee charges: none.
+Brokerage charges: none.
+There are no other costs.
+There is no grace period, final balloon, or interest deferral.

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "offer_a",
+    "name": "Offer A",
+    "file": "data/offers/offer_a.txt",
+    "text": "FUNDINGFIT SYNTHETIC BUSINESS LOAN OFFER\nOffer A\nThis fictional offer is educational sample data, not a bank quotation.\nPurpose: purchase of equipment for a small business.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nNominal annual interest rate: 3.50%.\nRate type: fixed for the entire loan.\nLoan term: 60 months.\nRepayment: equal monthly instalments, payable at each month-end.\nUpfront arrangement fee: EUR 5000.\nFee payment: paid separately at drawdown; not financed in the loan principal.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n",
+    "expected": {
+      "id": "offer_a",
+      "name": "Offer A",
+      "principal": 100000,
+      "annual_rate_pct": 3.5,
+      "term_months": 60,
+      "upfront_fee": 5000,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evidence": {
+      "principal": "Principal amount: EUR 100000.",
+      "annual_rate_pct": "Nominal annual interest rate: 3.50%.",
+      "term_months": "Loan term: 60 months.",
+      "upfront_fee": "Upfront arrangement fee: EUR 5000.",
+      "rate_type": "Rate type: fixed for the entire loan.",
+      "currency": "Currency: EUR.",
+      "other_costs": "Other costs: none."
+    },
+    "expected_behavior": "require_user_confirmation_before_comparison",
+    "synthetic": true,
+    "not_for_training": true
+  },
+  {
+    "id": "offer_b",
+    "name": "Offer B",
+    "file": "data/offers/offer_b.txt",
+    "text": "FUNDINGFIT - FICTIONAL FINANCING PROPOSAL\nOffer B\nFictional demonstration: no real lender is represented.\nThe facility finances business equipment.\nAll payments are denominated in EUR.\nThe amount advanced is EUR 100000.\nThe annual nominal borrowing rate is 4.20%.\nThis is a fixed-rate loan throughout its life.\nThe repayment period is 60 months.\nPayments are equal monthly instalments in arrears.\nA one-off origination fee of EUR 500 is payable.\nThis fee is paid separately when funds are released and is not borrowed.\nInsurance charges: none.\nGuarantee charges: none.\nBrokerage charges: none.\nThere are no other costs.\nThere is no grace period, final balloon, or interest deferral.\n",
+    "expected": {
+      "id": "offer_b",
+      "name": "Offer B",
+      "principal": 100000,
+      "annual_rate_pct": 4.2,
+      "term_months": 60,
+      "upfront_fee": 500,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evidence": {
+      "principal": "The amount advanced is EUR 100000.",
+      "annual_rate_pct": "The annual nominal borrowing rate is 4.20%.",
+      "term_months": "The repayment period is 60 months.",
+      "upfront_fee": "A one-off origination fee of EUR 500 is payable.",
+      "rate_type": "This is a fixed-rate loan throughout its life.",
+      "currency": "All payments are denominated in EUR.",
+      "other_costs": "There are no other costs."
+    },
+    "expected_behavior": "require_user_confirmation_before_comparison",
+    "synthetic": true,
+    "not_for_training": true
+  },
+  {
+    "id": "offer_c",
+    "name": "Offer C",
+    "file": "data/offers/offer_c.txt",
+    "text": "FUNDINGFIT DEMONSTRATION TERM SHEET\nOffer C\nEntirely synthetic example for a small business buying equipment.\nLoan currency: EUR.\nCapital to be borrowed: EUR 100000.\nAnnual nominal interest: 3.90%.\nInterest basis: fixed rate, unchanged until maturity.\nTime to repay: 60 months.\nThe principal and interest are repaid through equal monthly payments in arrears.\nInitial application fee: EUR 1500.\nThe initial fee is paid separately at disbursement, outside the loan amount.\nNo insurance is charged.\nNo guarantee fee is charged.\nNo broker fee is charged.\nOther costs are none.\nThe loan has no payment holiday, balloon repayment, or interest deferral.\n",
+    "expected": {
+      "id": "offer_c",
+      "name": "Offer C",
+      "principal": 100000,
+      "annual_rate_pct": 3.9,
+      "term_months": 60,
+      "upfront_fee": 1500,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evidence": {
+      "principal": "Capital to be borrowed: EUR 100000.",
+      "annual_rate_pct": "Annual nominal interest: 3.90%.",
+      "term_months": "Time to repay: 60 months.",
+      "upfront_fee": "Initial application fee: EUR 1500.",
+      "rate_type": "Interest basis: fixed rate, unchanged until maturity.",
+      "currency": "Loan currency: EUR.",
+      "other_costs": "Other costs are none."
+    },
+    "expected_behavior": "require_user_confirmation_before_comparison",
+    "synthetic": true,
+    "not_for_training": true
+  },
+  {
+    "id": "offer_incomplete",
+    "name": "Offer D incomplete",
+    "file": "data/offers/offer_incomplete.txt",
+    "text": "FUNDINGFIT SYNTHETIC INCOMPLETE OFFER\nOffer D incomplete\nFictional document supplied to test missing-information handling.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nNominal annual interest rate: 4.00%.\nRate type: fixed for the entire loan.\nLoan term: 60 months.\nRepayment: equal monthly instalments in arrears.\nThe arrangement-fee clause has not been supplied.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther recurring costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n",
+    "expected": {
+      "id": "offer_incomplete",
+      "name": "Offer D incomplete",
+      "principal": 100000,
+      "annual_rate_pct": 4.0,
+      "term_months": 60,
+      "upfront_fee": null,
+      "rate_type": "fixed",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evidence": {
+      "principal": "Principal amount: EUR 100000.",
+      "annual_rate_pct": "Nominal annual interest rate: 4.00%.",
+      "term_months": "Loan term: 60 months.",
+      "upfront_fee": null,
+      "rate_type": "Rate type: fixed for the entire loan.",
+      "currency": "Currency: EUR.",
+      "other_costs": "Other recurring costs: none."
+    },
+    "expected_behavior": "abstain_missing_upfront_fee",
+    "synthetic": true,
+    "not_for_training": true
+  },
+  {
+    "id": "offer_variable",
+    "name": "Offer E variable",
+    "file": "data/offers/offer_variable.txt",
+    "text": "FUNDINGFIT SYNTHETIC VARIABLE-RATE OFFER\nOffer E variable\nFictional document supplied to test the supported-product boundary.\nCurrency: EUR.\nPrincipal amount: EUR 100000.\nInitial nominal annual interest rate: 4.10%.\nRate type: variable; the lender may revise the rate during the loan.\nLoan term: 60 months.\nRepayment: monthly instalments in arrears; payment amounts may change with the rate.\nUpfront arrangement fee: EUR 700.\nFee payment: paid separately at drawdown; not financed in the loan principal.\nInsurance: none.\nGuarantee fees: none.\nBroker fees: none.\nOther costs: none.\nNo payment holiday, balloon payment, or deferred interest applies.\n",
+    "expected": {
+      "id": "offer_variable",
+      "name": "Offer E variable",
+      "principal": 100000,
+      "annual_rate_pct": 4.1,
+      "term_months": 60,
+      "upfront_fee": 700,
+      "rate_type": "variable",
+      "currency": "EUR",
+      "other_costs": 0
+    },
+    "evidence": {
+      "principal": "Principal amount: EUR 100000.",
+      "annual_rate_pct": "Initial nominal annual interest rate: 4.10%.",
+      "term_months": "Loan term: 60 months.",
+      "upfront_fee": "Upfront arrangement fee: EUR 700.",
+      "rate_type": "Rate type: variable; the lender may revise the rate during the loan.",
+      "currency": "Currency: EUR.",
+      "other_costs": "Other costs: none."
+    },
+    "expected_behavior": "reject_unsupported_variable_rate",
+    "synthetic": true,
+    "not_for_training": true
+  }
+]

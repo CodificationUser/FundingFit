@@ -1,0 +1,8 @@
+Loan amount: EUR 80,000.
+Repayment term: 60 months.
+Fixed nominal annual interest rate: 4.20% for the entire term.
+Repayment: equal monthly instalments.
+Upfront arrangement fee: EUR 1,200.
+Fee payment: paid separately at drawdown; not financed in the principal.
+Other costs: none.
+A compulsory insurance premium of EUR 280 per year is also payable.

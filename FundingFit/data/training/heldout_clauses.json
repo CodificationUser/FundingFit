@@ -1,0 +1,704 @@
+[
+  {
+    "id": "test-principal-00-0",
+    "text": "The facility provides borrowed capital of EUR 76,000.",
+    "label": "principal",
+    "template_family": "test-principal-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-00-1",
+    "text": "The facility provides borrowed capital of EUR 120,000.",
+    "label": "principal",
+    "template_family": "test-principal-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-00-2",
+    "text": "The facility provides borrowed capital of USD 24,000.",
+    "label": "principal",
+    "template_family": "test-principal-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-01-0",
+    "text": "Borrowing requested by the company: EUR 24,000.",
+    "label": "principal",
+    "template_family": "test-principal-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-01-1",
+    "text": "Borrowing requested by the company: EUR 45,000.",
+    "label": "principal",
+    "template_family": "test-principal-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-01-2",
+    "text": "Borrowing requested by the company: EUR 76,000.",
+    "label": "principal",
+    "template_family": "test-principal-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-02-0",
+    "text": "Loan funding approved for disbursement is USD 120,000.",
+    "label": "principal",
+    "template_family": "test-principal-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-02-2",
+    "text": "Loan funding approved for disbursement is GBP 185,000.",
+    "label": "principal",
+    "template_family": "test-principal-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-03-0",
+    "text": "The capital sum advanced under this credit is EUR 45,000.",
+    "label": "principal",
+    "template_family": "test-principal-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-03-1",
+    "text": "The capital sum advanced under this credit is GBP 120,000.",
+    "label": "principal",
+    "template_family": "test-principal-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-03-2",
+    "text": "The capital sum advanced under this credit is EUR 76,000.",
+    "label": "principal",
+    "template_family": "test-principal-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-04-0",
+    "text": "Gross principal available to the borrower: USD 120,000.",
+    "label": "principal",
+    "template_family": "test-principal-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-principal-04-1",
+    "text": "Gross principal available to the borrower: EUR 120,000.",
+    "label": "principal",
+    "template_family": "test-principal-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-00-0",
+    "text": "Interest is calculated using 7.25% nominal per annum.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-00-1",
+    "text": "Interest is calculated using 2.8% nominal per annum.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-01-0",
+    "text": "The annual percentage charged as borrowing interest is 1.75%.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-01-2",
+    "text": "The annual percentage charged as borrowing interest is 2.8%.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-02-0",
+    "text": "A yearly nominal interest charge of 8.4% is agreed.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-02-1",
+    "text": "A yearly nominal interest charge of 2.8% is agreed.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-02-2",
+    "text": "A yearly nominal interest charge of 1.75% is agreed.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-03-0",
+    "text": "Borrowing attracts nominal interest of 1.75% per year.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-03-1",
+    "text": "Borrowing attracts nominal interest of 7.25% per year.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-03-2",
+    "text": "Borrowing attracts nominal interest of 8.4% per year.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-04-0",
+    "text": "Interest rate expressed on an annual basis: 7.25%.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-annual_rate_pct-04-1",
+    "text": "Interest rate expressed on an annual basis: 2.8%.",
+    "label": "annual_rate_pct",
+    "template_family": "test-annual_rate_pct-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-00-0",
+    "text": "The scheduled repayment duration amounts to 48 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-00-1",
+    "text": "The scheduled repayment duration amounts to 12 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-00-2",
+    "text": "The scheduled repayment duration amounts to 72 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-01-0",
+    "text": "The final instalment is due 7 years after funding.",
+    "label": "term_months",
+    "template_family": "test-term_months-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-01-1",
+    "text": "The final instalment is due 6 years after funding.",
+    "label": "term_months",
+    "template_family": "test-term_months-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-01-2",
+    "text": "The final instalment is due 3 years after funding.",
+    "label": "term_months",
+    "template_family": "test-term_months-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-02-0",
+    "text": "The agreed loan tenor spans 48 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-02-2",
+    "text": "The agreed loan tenor spans 24 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-03-0",
+    "text": "Repayment is spread across a period of 4 years.",
+    "label": "term_months",
+    "template_family": "test-term_months-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-03-1",
+    "text": "Repayment is spread across a period of 3 years.",
+    "label": "term_months",
+    "template_family": "test-term_months-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-03-2",
+    "text": "Repayment is spread across a period of 1 years.",
+    "label": "term_months",
+    "template_family": "test-term_months-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-04-0",
+    "text": "The full capital is repaid over 48 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-term_months-04-1",
+    "text": "The full capital is repaid over 84 months.",
+    "label": "term_months",
+    "template_family": "test-term_months-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-00-0",
+    "text": "Loan setup costs payable initially: USD 350.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-00-1",
+    "text": "Loan setup costs payable initially: USD 800.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-00-2",
+    "text": "Loan setup costs payable initially: EUR 120.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-01-0",
+    "text": "At the start, an origination fee of GBP 120 is charged once.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-01-1",
+    "text": "At the start, an origination fee of USD 350 is charged once.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-02-0",
+    "text": "A one-time bank arrangement payment of EUR 2400 is due.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-02-2",
+    "text": "A one-time bank arrangement payment of EUR 350 is due.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-03-0",
+    "text": "The application carries an initial processing fee of GBP 350.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-03-1",
+    "text": "The application carries an initial processing fee of USD 800.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-03-2",
+    "text": "The application carries an initial processing fee of USD 2400.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-04-0",
+    "text": "The fee charged on opening the facility equals GBP 350.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-upfront_fee-04-1",
+    "text": "The fee charged on opening the facility equals GBP 2400.",
+    "label": "upfront_fee",
+    "template_family": "test-upfront_fee-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-rate_type-00-0",
+    "text": "The financing rate remains fixed from beginning to end.",
+    "label": "rate_type",
+    "template_family": "test-rate_type-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-rate_type-01-0",
+    "text": "A fixed rate is guaranteed during the borrowing term.",
+    "label": "rate_type",
+    "template_family": "test-rate_type-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-rate_type-02-0",
+    "text": "The loan has a variable, benchmark-linked rate.",
+    "label": "rate_type",
+    "template_family": "test-rate_type-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-rate_type-03-0",
+    "text": "Interest-rate category for this proposal: fixed.",
+    "label": "rate_type",
+    "template_family": "test-rate_type-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-rate_type-04-0",
+    "text": "The rate floats during the term of this borrowing.",
+    "label": "rate_type",
+    "template_family": "test-rate_type-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-00-0",
+    "text": "The currency selected for this financing is USD.",
+    "label": "currency",
+    "template_family": "test-currency-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-00-1",
+    "text": "The currency selected for this financing is GBP.",
+    "label": "currency",
+    "template_family": "test-currency-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-00-2",
+    "text": "The currency selected for this financing is EUR.",
+    "label": "currency",
+    "template_family": "test-currency-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-01-0",
+    "text": "Payments and advances are denominated in EUR.",
+    "label": "currency",
+    "template_family": "test-currency-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-01-1",
+    "text": "Payments and advances are denominated in GBP.",
+    "label": "currency",
+    "template_family": "test-currency-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-02-0",
+    "text": "Amounts in this proposal are expressed in EUR.",
+    "label": "currency",
+    "template_family": "test-currency-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-02-2",
+    "text": "Amounts in this proposal are expressed in USD.",
+    "label": "currency",
+    "template_family": "test-currency-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-03-0",
+    "text": "The chosen denomination of the loan is USD.",
+    "label": "currency",
+    "template_family": "test-currency-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-03-1",
+    "text": "The chosen denomination of the loan is GBP.",
+    "label": "currency",
+    "template_family": "test-currency-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-04-0",
+    "text": "The lender and borrower settle all sums in USD.",
+    "label": "currency",
+    "template_family": "test-currency-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-currency-04-2",
+    "text": "The lender and borrower settle all sums in EUR.",
+    "label": "currency",
+    "template_family": "test-currency-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-00-0",
+    "text": "No supplementary costs are payable under this offer.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-01-0",
+    "text": "No insurance, broker or guarantee costs are added.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-02-0",
+    "text": "Ancillary charges in addition to interest: none.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-03-0",
+    "text": "Extra compulsory expenses total EUR 2400.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-03-1",
+    "text": "Extra compulsory expenses total EUR 800.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-03-2",
+    "text": "Extra compulsory expenses total USD 2400.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other_costs-04-0",
+    "text": "The borrower owes no additional recurring charges.",
+    "label": "other_costs",
+    "template_family": "test-other_costs-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other-00-0",
+    "text": "This document describes a fictional equipment financing.",
+    "label": "other",
+    "template_family": "test-other-00",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other-01-0",
+    "text": "Repayments fall at the end of every calendar month.",
+    "label": "other",
+    "template_family": "test-other-01",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other-02-0",
+    "text": "The fee must be paid using separate business cash.",
+    "label": "other",
+    "template_family": "test-other-02",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other-03-0",
+    "text": "Please return a signed copy to the relationship manager.",
+    "label": "other",
+    "template_family": "test-other-03",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  },
+  {
+    "id": "test-other-04-0",
+    "text": "No grace period and no large final repayment are included.",
+    "label": "other",
+    "template_family": "test-other-04",
+    "split": "test",
+    "synthetic": true,
+    "generated_by": "Codex with explicit template families"
+  }
+]

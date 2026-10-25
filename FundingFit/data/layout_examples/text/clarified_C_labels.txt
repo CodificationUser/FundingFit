@@ -1,0 +1,16 @@
+Loan amount
+EUR 80,000
+Duration
+60 months
+Nominal annual interest rate
+4.90%
+Rate type
+Fixed for the entire term
+Repayment
+Equal monthly instalments of principal and interest
+One-off setup fee
+EUR 400
+Fee payment
+Paid separately at drawdown; not financed in or withheld from the principal
+Other costs
+None

@@ -1,0 +1,16 @@
+FUNDINGFIT SYNTHETIC VARIABLE-RATE OFFER
+Offer E variable
+Fictional document supplied to test the supported-product boundary.
+Currency: EUR.
+Principal amount: EUR 100000.
+Initial nominal annual interest rate: 4.10%.
+Rate type: variable; the lender may revise the rate during the loan.
+Loan term: 60 months.
+Repayment: monthly instalments in arrears; payment amounts may change with the rate.
+Upfront arrangement fee: EUR 700.
+Fee payment: paid separately at drawdown; not financed in the loan principal.
+Insurance: none.
+Guarantee fees: none.
+Broker fees: none.
+Other costs: none.
+No payment holiday, balloon payment, or deferred interest applies.

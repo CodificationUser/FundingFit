@@ -1,0 +1,16 @@
+FUNDINGFIT DEMONSTRATION TERM SHEET
+Offer C
+Entirely synthetic example for a small business buying equipment.
+Loan currency: EUR.
+Capital to be borrowed: EUR 100000.
+Annual nominal interest: 3.90%.
+Interest basis: fixed rate, unchanged until maturity.
+Time to repay: 60 months.
+The principal and interest are repaid through equal monthly payments in arrears.
+Initial application fee: EUR 1500.
+The initial fee is paid separately at disbursement, outside the loan amount.
+No insurance is charged.
+No guarantee fee is charged.
+No broker fee is charged.
+Other costs are none.
+The loan has no payment holiday, balloon repayment, or interest deferral.

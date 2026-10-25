@@ -1,0 +1,7 @@
+Loan amount: EUR 80,000.
+Repayment term: 60 months.
+The annual interest rate is variable: 3-month EURIBOR plus 2.10%, revised quarterly.
+Repayment: monthly instalments recalculated after each rate revision.
+Upfront arrangement fee: EUR 950.
+Fee payment: paid separately at drawdown; not financed in the principal.
+Mandatory insurance costs: 0.30% per year, payable monthly.
